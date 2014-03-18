@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4897
+
+DESCRIPTION
+This plugin combines the buffer cloning functionality of clone.vim
+(vimscript #4896) with the selection of similar files provided by
+EditSimilar.vim (vimscript #2544) to provide :CloneSubstitute,
+:ClonePlus etc. command variants of the original :CloneAs command.
+
+USAGE
+:ClonePlus,  :CloneMinus,  :CloneSubstitute,  :CloneRoot
+:SClonePlus, :SCloneMinus, :SCloneSubstitute, :SCloneRoot
+                        Duplicate and edit the current buffer to a file with a
+                        similar name, using the substitutions and iterations
+                        provided by the EditSimilar.vim plugin.
